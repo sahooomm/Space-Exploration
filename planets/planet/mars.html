@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Blog</title>
+    
+    <style>
+        /* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #6a6868;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    object-fit: content;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+
+    .image:hover::after {
+        content: "The Fourth Planet of the Solar System";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center; /* Add this line to center the text */
+    }
+    
+    
+
+
+
+   
+
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Exploring Mars</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="image">
+        
+        <img src="mars.jpg" alt="Mars" style="width: 100%;">
+    </div>
+
+    
+
+    <main>
+        <article>
+            <h1>Introduction to Mars</h1>
+        <p>Mars, often called the "Red Planet" due to its reddish appearance, is the fourth planet from the Sun in our solar system. It has long captured human fascination as a potential site for extraterrestrial life and future human exploration. Mars possesses many intriguing features and mysteries that continue to be the focus of scientific study and exploration.</p>
+        
+        </article>
+
+        <article>
+            <h2>Interesting Facts about Mars</h2>
+            <ol>
+                <li>
+                    <strong>Reddish Appearance:</strong> Mars gets its reddish color from iron oxide, or rust, present on its surface. The iron minerals react with the oxygen in Mars' thin atmosphere, giving the planet its distinctive hue.
+                </li>
+                <li>
+                    <strong>Similarities to Earth:</strong> Mars has some similarities to Earth, such as polar ice caps, seasonal changes, and a day length close to Earth's. These similarities make Mars one of the most Earth-like planets in the solar system and a focus of astrobiology research.
+                </li>
+                <li>
+                    <strong>Valles Marineris:</strong> Mars is home to Valles Marineris, one of the largest canyons in the solar system. Stretching over 4,000 kilometers (2,500 miles) long, Valles Marineris dwarfs Earth's Grand Canyon and is a testament to the planet's dynamic geological history.
+                </li>
+                <li>
+                    <strong>Olympus Mons:</strong> Mars boasts Olympus Mons, the tallest volcano in the solar system and one of its most prominent features. This shield volcano rises about 21 kilometers (13 miles) above the surrounding plains, making it nearly three times the height of Mount Everest.
+                </li>
+                <li>
+                    <strong>Past Water Activity:</strong> Evidence suggests that Mars once had liquid water on its surface, indicating a warmer and wetter climate in the past. Features like dry riverbeds, lakebeds, and mineral deposits provide clues to Mars' watery history and the potential for ancient life.
+                </li>
+                <li>
+                    <strong>Exploration Missions:</strong> Numerous robotic missions have explored Mars, including rovers like Spirit, Opportunity, and Curiosity, which have provided valuable data on the planet's geology, climate, and potential habitability. Future missions, including the Perseverance rover and planned crewed missions, aim to further unravel the mysteries of Mars.
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Exploring Mars</h2>
+        <p>With its fascinating geology, potential for life, and similarities to Earth, Mars continues to be a focal point for space exploration. Scientists and engineers are working tirelessly to unlock the secrets of this enigmatic planet and pave the way for future human exploration.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Mars Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

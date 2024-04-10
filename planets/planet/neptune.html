@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptune Blog</title>
+    
+    <style>
+        /* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #6a6868;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    object-fit: content;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+
+    .image:hover::after {
+        content: "The Ice Giant of the Solar System";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center; /* Add this line to center the text */
+    }
+    
+    
+
+
+
+   
+
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Exploring Neptune</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="image">
+        
+        <img src="neptune.jpg" alt="Neptune" style="width: 100%;">
+    </div>
+
+    
+
+
+   
+    <main>
+        <article>
+            <h2>Introduction to Neptune</h2>
+            <p>Neptune, the eighth and farthest known solar planet from the Sun, is a mysterious and fascinating world. Named after the Roman god of the sea, Neptune's deep blue coloration and dynamic atmosphere have captured the imagination of scientists and space enthusiasts alike.</p>
+        </article>
+
+        <article>
+            <h2>Interesting Facts about Neptune</h2>
+            <ol>
+                <li><strong>Blue Atmosphere:</strong> Neptune's vivid blue color is due to the presence of methane in its atmosphere, which absorbs red light and reflects blue light. The planet's atmosphere is composed primarily of hydrogen and helium, with traces of methane, water, and ammonia.</li>
+                <li><strong>Dynamic Weather:</strong> Neptune's atmosphere is marked by high-speed winds, massive storms, and cloud formations. The most famous storm on Neptune is the Great Dark Spot, a large anticyclonic storm similar to Jupiter's Great Red Spot.</li>
+                <li><strong>Rings and Moons:</strong> Neptune has a faint ring system composed of dust particles and small rocks. The planet also has 14 known moons, with Triton being the largest and most notable. Triton is unique among the solar system's moons as it orbits Neptune in a retrograde direction.</li>
+                <li><strong>Cold and Distant:</strong> Neptune is one of the coldest planets in our solar system, with surface temperatures reaching as low as -218°C (-360°F). Its distance from the Sun results in a frigid and inhospitable environment, making it challenging to study up close.</li>
+                <li><strong>Exploration:</strong> Neptune has only been visited by one spacecraft, Voyager 2, which flew by the planet in 1989. Despite its brief encounter, Voyager 2 provided valuable data about Neptune's atmosphere, rings, and moons, sparking further interest in exploring this distant world.</li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Exploring Neptune</h2>
+            <p>Despite its remote location and extreme conditions, Neptune continues to intrigue scientists and astronomers. Future missions to Neptune aim to study its atmosphere, magnetosphere, and moons in greater detail, providing insights into the outer reaches of our solar system.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Neptune Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

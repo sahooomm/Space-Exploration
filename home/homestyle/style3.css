@@ -1,0 +1,19 @@
+.menu{
+
+    display: none;
+    border: none;
+
+}
+
+@media screen and (max-width:1029px){
+
+    .menu{
+        display:block
+    }
+}
+
+.menu-icon1{
+
+    font-weight:600;
+
+}

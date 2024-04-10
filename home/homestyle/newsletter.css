@@ -1,0 +1,156 @@
+.subscribe{
+    
+    display:flex;
+    border:2px;
+    border-radius:5px;
+    margin:2rem;
+    max-width: 1280px;
+    height:70vh;
+    background-color: rgb(243, 239, 239);
+    justify-content: space-between;
+    
+}
+
+.newsimg{
+
+    border: 2px;
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.newsimg:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    rotate: 3deg;
+    cursor: pointer;
+}
+
+.newsimg img{
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    align-items: left;
+}
+
+.subscribe-form h2{
+    
+    
+    text-align: left;
+    color:rgb(20, 37, 110);
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.subscribe-form h5 {
+    text-align: left;
+    font-size: 1rem;
+    color: #9c9a9a;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-bottom: 5px;
+    
+
+}
+.subscribe h2 {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .07em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(7, 7, 6) }
+}
+
+
+
+
+
+.subscribe-form h5:hover {
+    color: #007bff;
+}
+
+
+.subscribe-form form{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 0.5rem;
+    margin-top:2px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    width:13rem;
+    
+}
+
+.subscribe-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    height:35px;
+    width:6rem;
+    
+}
+
+.subscribe-form button:hover {
+    background-color: #80b1f4;
+    color:black;
+    border: 0px;
+}
+
+.subscribe-form p{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #9c9a9a;
+    text-align: left;
+}
+
+.pri:hover{
+    color: #032cf9;
+    color:black;
+    border: 0px;
+    transition:ease-in-out 0.5s;
+    text-decoration: underline;
+}
+

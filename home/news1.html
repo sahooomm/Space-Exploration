@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>News</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #000;
+            padding-bottom: 1rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+     
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #000;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-link {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .nav-link:hover {
+      color: #007bff;
+    }
+
+    .main {
+        width:90%;
+        height:auto;
+        margin:30px;
+    }   
+
+    .news-item {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .news-item-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 1rem;
+    }
+
+    .news-item-content {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #6c757d;
+      line-height: 1.5rem;
+    }
+
+    .news-item-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .news-item-author {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #000;
+    }
+
+    .news-item-date {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #6c757d;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    .pagination-link {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #000;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 1px solid #000;
+      margin-right: 1rem;
+    }
+
+    .pagination-link:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .pagination-link.active {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .news-item img{
+        width:100%;
+        height:100%;
+        border-radius:10px;
+        
+    }
+    .logo{
+        display:flex;
+        align-items: center;
+    }
+    
+    .logo-icon{
+        width: 40px;
+        margin-right: 10px;
+    }
+    
+    .logo-text{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--text-color);
+    
+    }
+    .footer {
+        background-color: #000;
+        color: #fff;
+        padding: 2rem 0;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links {
+        display: flex;
+    }
+
+    .footer-link {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+    .footer-social {
+        display: flex;
+    }
+
+    .footer-social-link {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+    .footer-bottom {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .read-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #282727;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+
+    }
+
+    .read-more:hover{
+        background-color: #000;
+        color:#007bff;
+    }
+    
+   
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div classs="main1">
+    
+   
+    <header class="header">
+       <a href="news1.html" class="logo">
+        <img src="../pictures/icon2.jfif" alt="logo" class="logo-icon">
+        <span class="logo-text">Space News</span>
+        </a>
+      <nav class="nav-links">
+        <a href="../home/home1.html" class="nav-link">Home</a>
+        <a href="../discover page/new1.html" class="nav-link">Explore</a>
+        <a href="../new/contactus.html" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">ISS</a>
+        <a href="#" class="nav-link">Recents</a>
+        
+      </nav>
+
+    </header>
+
+    </div>
+    <main class="main">
+    <div class="news-item">
+        <img src="../pictures/news4.webp" alt="">
+        <div class="news-item-title">Future quantum computers will be no match for 'space encryption' that uses light to beam data around — with the 1st satellite launching in 2025</div>
+        <div class="news-item-content">
+            <p>By converting data into light particles and beaming them around the world using satellites, we could prevent encrypted messages from being intercepted by a superpowerful quantum computer, scientists claim.
+
+                Currently, messaging technology relies on mathematical, or cryptographic, methods of protection, including end-to-end encryption. This technology is used in WhatsApp — as well as by corporations, the government and the military — to protect sensitive data from being intercepted. 
+                
+                Encryption works by scrambling data or text into what appears to be nonsense, using an algorithm and a key that only the sender and recipient can use to unlock the data. These algorithms can, in theory, be cracked. But they are designed to be so complex that even the fastest supercomputers would take millions of years to translate the data into something readable. </p>
+        <div class="news-item-footer">
+            <div class="news-item-author">John Doe</div>
+            <div class="news-item-date">June 1, 2022</div>
+        </div>
+    </div>
+    </main>
+
+    <main class="main">
+        <div class="news-item">
+            <img src="../pictures/news3.webp" alt="">
+            <div class="news-item-title">Astrobotic to launch mini rover along with NASA's ice-hunting VIPER on next moon mission</div>
+            <div class="news-item-content">
+                <p>COLORADO SPRINGS — Astrobotic's next moon mission will send not one but two rovers to Earth's nearest neighbor.
+
+                    The Pittsburgh-based company plans to launch the first-ever mission of its Griffin moon lander atop a SpaceX Falcon Heavy rocket later this year. Griffin's main job is to deliver NASA's ice-hunting VIPER rover to the lunar south polar region, but we learned on Monday (April 8) that the lander will tote another, smaller rover as well.
+                    
+                    Also hitching a ride on the Griffin-1 mission is Astrobotic's CubeRover, a modular little machine designed to make moon exploration accessible to a variety of customers. It will be operated using Spacefarer, a software platform developed by the Canadian company Mission Control. 
+                    
+                    </p>
+            </div>
+            <div class="news-item-footer">
+                <div class="news-item-author">John Doe</div>
+                <div class="news-item-date">june 1, 2022</div>
+            </div>
+        </div>
+        </main>
+
+        <main class="main">
+            <div class="news-item">
+                <img src="../pictures/news1.jpg" alt="">
+                <div class="news-item-title">These solar eclipse 2024 photos from our readers are absolutely amazing (images, video)</div>
+                <div class="news-item-content">
+                    <p>On Monday, April 8, a total solar eclipse swept through the skies over North America, delighting and astounding millions of onlookers who had traveled from across the globe to take in this incredible event. And our own space readers got in on the act, too.
+
+                        The sun was completely obscured by the moon across what is known as the "path of totality," which was approximately 115 miles (185 kilometers) wide and 10,000 miles long (16,000 kilometers).
+                        
+                         This 2024 total solar eclipse path crossed the four Mexican states of Sinaloa, Nayarit, Durango, and Coahuila before passing over 15 U.S. states, Texas, Oklahoma, Arkansas, Missouri, Illinois, Kentucky, Tennessee, Michigan, Indiana, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine. 
+                        
+                        </p>
+                </div>
+                <div class="news-item-footer">
+                    <div class="news-item-author">John Doe</div>
+                    <div class="news-item-date">june 1, 2022</div>
+                </div>
+            </div>
+            </main>
+        
+            <main class="main">
+                <div class="news-item">
+                    <img src="../pictures/news2.jpg" alt="">
+                    <div class="news-item-title">'Heavy' history: ULA launches final Delta rocket after 64 years (video, photos)</div>
+                    <div class="news-item-content">
+                        <p>
+                            United Launch Alliance (ULA) ignited its last Delta IV Heavy rocket to launch NROL-70, a classified payload for the U.S. National Reconnaissance Office (NRO). The powerful booster departed Space Launch Complex-37 (SLC-37) at Cape Canaveral Space Force Station in Florida at 12:53 p.m. EDT (1653 GMT), literally setting itself on fire for the 16th and final time.
+                            
+                            "It is a bittersweet moment for us," said Tory Bruno, chief executive officer of United Launch Alliance, in a call with reporters on March 26. "It is such an amazing piece of technology — 23 stories tall, hall a million gallons of propellant, two and a quarter million pounds of thrust and the most metal of all rockets, setting itself on fire before it goes to space."
+                            
+                            That spectacle, which was unique to the Delta IV in its heaviest configuration, was the result of hydrogen building up in the flame trench and then rising up alongside the rocket after it was used to cool down the three RS-68A engines to cryogenic temperatures. When the engines fired, the hydrogen ignited and flames lapped at the orange insulation covering the core stage and its two side-mounted boosters.
+                            
+                            "It's why we had nicely toasted marshmallow boosters and the very dramatic effect of a self-immolating rocket before up she goes," said Bruno.
+                            
+                            The two boosters were jettisoned about four minutes into the flight, followed by the core, or first stage, separating one minute and 45 seconds later. A single RL10C-2-1 engine on the Delta cryogenic second stage then took over, propelling the NROL-70 payload into space. Due to national security concerns, coverage of the launch ceased following fairing jettison at about 6 minutes and 40 seconds into the flight.</p>
+                    </div>
+                    <div class="news-item-footer">
+                        <div class="news-item-author">John Doe</div>
+                        <div class="news-item-date">june 1, 2022</div>
+                    </div>
+                </div>
+                </main>
+                <a href="https://www.space.com/news" class="read-more">Read More....</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+
+    </div>
+
+    
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2022 Space News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer></div></footer>
+
+    
+</body>
+
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Blog</title>
+    
+    <style>
+        /* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #6a6868;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    object-fit: content;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+
+    .image:hover::after {
+        content: "The Second Largest Planet of the Solar System";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center; /* Add this line to center the text */
+    }
+    
+    
+
+
+
+   
+
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Exploring Saturn</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="image">
+        
+        <img src="saturn.jpg" alt="saturn" style="width: 100%;">
+    </div>
+
+    
+
+
+    <main>
+        <article>
+            <h2>Introduction to Saturn</h2>
+            <p>Saturn, with its beautiful rings, is one of the most iconic planets in our solar system. It is the sixth planet from the Sun and the second-largest in our system, after Jupiter. Saturn's stunning appearance and unique features have fascinated astronomers and space enthusiasts for centuries.</p>
+        </article>
+
+        <article>
+            <h2>Interesting Facts about Saturn</h2>
+            <ol>
+                <li><strong>Rings:</strong> Saturn is famous for its spectacular ring system, which is composed of ice particles, dust, and rocks. These rings stretch out over 282,000 kilometers (175,000 miles) from the planet's center but are remarkably thin, only about 20 meters (66 feet) thick.</li>
+                <li><strong>Moons:</strong> Saturn has an extensive system of moons, with over 80 known natural satellites. Titan, Saturn's largest moon, is particularly intriguing due to its thick atmosphere and hydrocarbon lakes, making it one of the most Earth-like bodies in the solar system.</li>
+                <li><strong>Hexagonal Storm:</strong> Saturn's north pole is home to a mysterious hexagonal-shaped storm system, first discovered by the Voyager spacecraft in the 1980s. This bizarre weather pattern persists despite Saturn's changing seasons and remains a subject of scientific investigation.</li>
+                <li><strong>Gas Giant:</strong> Similar to Jupiter, Saturn is classified as a gas giant, consisting mainly of hydrogen and helium. It has no solid surface and is primarily composed of swirling gas clouds, making it a unique and captivating world.</li>
+                <li><strong>Exploration:</strong> Several spacecraft have visited Saturn, including the Cassini-Huygens mission, which orbited the planet for over 13 years, providing unprecedented insights into its atmosphere, rings, and moons. Future missions, such as NASA's Dragonfly, aim to further explore Saturn's intriguing moon Titan.</li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Exploring Saturn</h2>
+            <p>Studying Saturn and its moons presents numerous challenges due to its distance from Earth and complex environment. However, ongoing and planned missions continue to unravel the mysteries of this captivating planet, shedding light on its formation, evolution, and potential for habitability.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saturn Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

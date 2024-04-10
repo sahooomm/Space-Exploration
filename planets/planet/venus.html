@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus Blog</title>
+    
+    <style>
+        /* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #6a6868;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    object-fit: content;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+
+    .image:hover::after {
+        content: "The Second Planet of the Solar System";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center; /* Add this line to center the text */
+    }
+    
+    
+
+
+
+   
+
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Exploring Venus</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="image">
+        
+        <img src="venus.jpeg" alt="Venus" style="width: 100%;">
+    </div>
+
+    
+
+    <main>
+        <article>
+            <h1>Introduction to Venus</h1>
+        <p>Venus, often referred to as Earth's sister planet due to its similar size and composition, 
+            is the second planet from the Sun in our solar system. It is named after the Roman goddess of love and beauty.
+             Venus has captivated human imagination for centuries,
+             appearing as a bright object in the sky and often referred to as 
+             the "Morning Star" or the "Evening Star."</p>
+        </article>
+
+        <article>
+            <h2>Interesting Facts about Venus</h2>
+        <ol>
+            <li>
+                <strong>Retrograde Rotation:</strong> Venus rotates on its axis in the opposite direction to most planets in the solar system, a phenomenon known as retrograde rotation. This means the Sun rises in the west and sets in the east on Venus.
+            </li>
+            <li>
+                <strong>No Moons or Rings:</strong> Unlike many other planets, Venus has no natural satellites (moons) or rings orbiting around it.
+            </li>
+            <li>
+                <strong>Lengthy Day-Night Cycle:</strong> A day on Venus (the time it takes for one complete rotation on its axis) is longer than its year (the time it takes to orbit the Sun). A day on Venus lasts about 243 Earth days, while a year on Venus is only about 225 Earth days.
+            </li>
+            <li>
+                <strong>Venusian Volcanoes:</strong> Venus has a surface covered in volcanic plains, with thousands of volcanoes, some of which are still active. One notable feature is Maat Mons, a volcano that rises about 5 miles (8 kilometers) above the surrounding terrain.
+            </li>
+           
+        </ol>
+        </article>
+
+        <article>
+            <h2>Exploring Venus</h2>
+            <p>Despite its challenging environment, scientists are intrigued by Venus and continue to study it using both orbital missions and proposed lander missions. Future missions aim to unravel the mysteries of Venus's atmosphere, surface geology, and volcanic activity, shedding light on its complex history and processes.</p>
+       
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Venus Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Background with Logos</title>
+  <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+  
+.heading {
+  font-size: 50px;
+}
+
+.subheading {
+  font-size: 24px;
+}
+
+.logo-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+  .logo-box {
+    border-radius:10px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin:  20px; /* Adjust spacing between boxes */
+  }
+
+  .text {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px; /* Add space between logo-box and text */
+  }
+
+
+.logo {
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the entire box */
+  object-position: center; /* Center the image within the box */
+  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+  border: 2px solid white; /* Add border with white color and 2px width */
+  border-radius: 10px;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Scale the image slightly on hover */
+}
+.text {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+  
+  <video autoplay muted loop class="video-bg">
+    <source src="../pictures/m2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+  <div class="content">
+    <h1 class="heading">DISCOVER THE SPACE</h1>
+    <p class="subheading">CLICK TO EXPLORE</p>
+    <div class="logo-row">
+      <div class="logo-box">
+        <a href="../planets/planets.html">
+          <img src="../pictures/planet.jpg" alt="everything about planets" class="logo">
+        </a>
+        <span class="text">planets</span>
+      </div>
+
+
+      <div class="logo-box">
+        <a href="stars.html">
+        <img src="../pictures/Stars.jpg" alt="everything about Stars" class="logo">
+      </a>
+      <span class="text">Stars</span>
+      </div>
+
+      <div class="logo-box">
+         <a href="galaxies.html">
+        <img src="../pictures/Galaxies.jpg" alt="everything about galaxies" class="logo">
+      </a>
+      <span class="text">Galaxies</span>
+      </div>
+
+      <div class="logo-box">
+         <a href="supergaints.html">
+        <img src="../pictures/supergaint.webp" alt="everything about Supergiant" class="logo">
+        </a>
+        <span class="text">Super gaint</span>
+      </div>
+    </div>
+
+
+    <div class="logo-row">
+      <div class="logo-box">
+          <a href="satellite.html">
+          <img src="../pictures/sattelite.avif" alt="everything about satellite" class="logo">
+        </a>
+        <span class="text">Satellite</span>
+      </div>
+
+      <div class="logo-box">
+       <a href="asteroid.html">
+          <img src="../pictures/aesteroid.jpg" alt="everything about asteroid" class="logo">
+        </a>
+        <span class="text">Asteroid</span>
+      </div>
+
+      <div class="logo-box">
+         <a href="cluster.html">
+          <img src="../pictures/starcluster.jpg" alt="everything about star cluster" class="logo">
+        </a>
+        <span class="text">Star cluster</span>
+      </div>
+
+      <div class="logo-box">
+          <a href="proxima.html">
+            <img src="../pictures/igb.webp" alt="everything about intergalactic belt" class="logo">
+          </a>
+          <span class="text">proxima centauri </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
